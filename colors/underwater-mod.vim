@@ -21,7 +21,7 @@ hi PmenuSel     guifg=#dfeff6 guibg=#2D7889
 
 hi IncSearch    guifg=bg      guibg=#AF81F4 gui=bold
 hi Search       guifg=bg      guibg=#AF81F4 gui=none
-hi HoverSearch  gui=underline guisp=#2D7889
+hi HoverSearch  gui=undercurl guisp=#2D7889
 
 """""""" General colors
 
