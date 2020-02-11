@@ -1,7 +1,8 @@
+" Note: personal fork for Dennis Lutter (lad1337@gmail.com)
 " Maintainer: Mario Gutierrez (mario@mgutz.com)
 " Original Theme: Dmitry Kichenko (dmitrykichenko@gmail.com)
-" Last Change: Dec 28, 2010
-" Version: 0.3
+" Last Change: check git
+" Version: 0.4
 
 let colors_name = "underwater-mod"
 
@@ -13,8 +14,8 @@ if exists("syntax_on")
 endif
 
 
-hi CursorLine   guibg=#18374F
-hi CursorColumn guibg=#18374F
+hi CursorLine   guibg=#152637
+hi CursorLineNr guifg=#89e14b
 hi MatchParen   guifg=magenta guibg=bg      gui=bold
 hi Pmenu        guifg=#dfeff6 guibg=#1E415E
 hi PmenuSel     guifg=#dfeff6 guibg=#2D7889
@@ -28,38 +29,38 @@ hi HoverSearch  gui=undercurl guisp=#2D7889
 hi Cursor       guifg=black   guibg=#55A096 gui=none
 hi Folded       guifg=#68CEE8 guibg=#1A3951 gui=none
 hi FoldColumn   guifg=#1E415E guibg=#1A3951 gui=none
-hi LineNr       guifg=#1c3249 guibg=bg      gui=none
+hi LineNr       guifg=#1c3249 guibg=none    gui=none
 hi Normal       guifg=#e3f3fa guibg=#0A1521 gui=none
-hi NonText      guifg=#1c3249 guibg=bg      gui=none
+hi NonText      guifg=#1c3249 guibg=none    gui=none
 hi StatusLine   guifg=#ffec99 guibg=#0a1721 gui=none
 hi StatusLineNC guifg=#4e6f91 guibg=#0a1721 gui=none
 hi TabLine      guifg=#555555 guibg=#dddddd gui=none
 hi TabLineSel   guifg=#101010 guibg=#b0b0b0 gui=none
 hi TabLineFill  guifg=fg      guibg=#dddddd gui=none
-hi Title        guifg=#ef7760 guibg=bg      gui=none
+hi Title        guifg=#ef7760 guibg=none    gui=none
 hi VertSplit    guifg=#0a1721 guibg=#0a1721 gui=none
 hi Visua        guifg=#dfeff6 guibg=#24557A gui=none
 hi ErrorMsg     guifg=fg      guibg=#C62626
-hi WarningMsg   guifg=#C62626 guibg=bg
-
+hi WarningMsg   guifg=#C62626 guibg=none
+hi SignColumn   guibg=#0d1c2b
 
 
 """""""" Syntax highlighting
 
-hi Comment    guifg=#4e6f91 guibg=bg gui=italic
-hi Constant   guifg=#ffc287 guibg=bg gui=none
-hi Function   guifg=#AF81F4 guibg=bg gui=none
-hi Identifier guifg=#889ce8 guibg=bg gui=none
-hi Ignore     guifg=bg      guibg=bg gui=none
+hi Comment    guifg=#4e6f91 guibg=none gui=italic
+hi Constant   guifg=#ffc287 guibg=none gui=none
+hi Function   guifg=#AF81F4 gui=none
+hi Identifier guifg=#889ce8 guibg=none gui=none
+hi Ignore     guifg=bg      guibg=none gui=none
 hi link       Number        Constant
-hi PreProc    guifg=#ef7760 guibg=bg gui=none
-hi Keyword    guifg=#8ac6f2 guibg=bg gui=none
-hi Specia     guifg=#b9e19d guibg=bg gui=none
-hi Statement  guifg=#68CEE8 guibg=bg gui=none
-hi String     guifg=#89e14b guibg=bg gui=italic
-hi Todo       guifg=#ADED80 guibg=bg gui=bold
-hi Type       guifg=#5ba0eb guibg=bg gui=none
-hi Underlined guifg=#8ac6f2 guibg=bg gui=underline
+hi PreProc    guifg=#ef7760 guibg=none gui=none
+hi Keyword    guifg=#8ac6f2 guibg=none gui=none
+hi Specia     guifg=#b9e19d guibg=none gui=none
+hi Statement  guifg=#68CEE8 guibg=none gui=none
+hi String     guifg=#89e14b guibg=none gui=italic
+hi Todo       guifg=#ADED80 guibg=none gui=bold
+hi Type       guifg=#5ba0eb guibg=none gui=none
+hi Underlined guifg=#8ac6f2 guibg=none gui=underline
 
 
 """""""" Coffee
